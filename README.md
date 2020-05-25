@@ -1,10 +1,5 @@
-# macos-speed-limit
-bash script to limit mac os speed
-works in 10.14 (with pf)
+To flush all:
+`sudo ./speedlimit_flush.sh`
 
-to flush all:
-sudo ./speedlimit_flush.sh 
-
-to set speed change config in file and run:
-sudo ./speedlimit_set.sh
-# speed_limit
+To set speed change config in file and run:
+`sudo ./speedlimit_set.sh`
